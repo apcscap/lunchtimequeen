@@ -6,6 +6,9 @@ import maraudersMap from '../public/maraudersmap.jpg'
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>HB Isa</title>
+      </Head>
       <div className={styles.coverPage}>
         <Image 
           src={maraudersMap}
