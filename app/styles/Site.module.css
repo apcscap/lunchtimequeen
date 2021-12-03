@@ -11,7 +11,7 @@
 }
 
 .note1 {
-    background-image: linear-gradient(rgba(255,0,0,0), rgb(224,204,167) 37%);
+    background-image: linear-gradient(rgba(224,204,167, 0), rgb(224,204,167, 1) 37%);
     width: 100vw;
     height: 100vh;
 }
