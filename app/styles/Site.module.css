@@ -1,4 +1,3 @@
-
 .container {
     padding: 0;
 }
@@ -29,8 +28,34 @@
 .coverImg {
     z-index: -1;
 }
+
 .coverSpacer {
     display: block;
     width: 100vw;
-    height: 100vh
+    height: 100vh;
+}
+
+/* NOTE: to have a div with the width or height of a mobile screen using the
+ property vw or vh, one must add 5 units to cover the entire screen. Supposedly
+ adding these five units will help match the scale of the div as it is 
+ on a desktop screen. */
+@media only screen and (max-width: 850px) {
+    .coverPage {
+        flex: 1;
+        position: fixed;
+        width: 105vw;
+        height: 105vh;
+        z-index: -1;
+    }
+    .coverSpacer {
+        display: block;
+        width: 105vw;
+        height: 105vh;
+    }
+
+    .note1 {
+        background-image: linear-gradient(rgba(224,204,167, 0), rgb(224,204,167, 1) 37%);
+        width: 105vw;
+        height: 105vh;
+    }
 }
