@@ -1,0 +1,36 @@
+
+.container {
+    padding: 0;
+}
+
+.coverPage {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.note1 {
+    background-image: linear-gradient(rgba(255,0,0,0), rgb(224,204,167) 37%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.coverTitle {
+    font-family: Spectral;
+    font-weight: 400;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    max-width: 369px;
+    z-index: 10;
+}
+
+.coverImg {
+    z-index: -1;
+}
+.coverSpacer {
+    display: block;
+    width: 100vw;
+    height: 100vh
+}
