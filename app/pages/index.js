@@ -2,8 +2,16 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Site.module.css'
 import maraudersMap from '../public/maraudersmap.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init()
+  }, []) // use effect isn't dependent on anything
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -21,7 +29,7 @@ export default function Home() {
         &nbsp;
       </div>
       <div className={styles.note1}>
-        <h1 className={styles.coverTitle}>I solemly swear that I am up to no good. Hehehe</h1>
+        <h1 data-aos="fade-left" className={styles.coverTitle}>I solemly swear that I am up to no good. Hehehe</h1>
       </div>
     </div>
   )
