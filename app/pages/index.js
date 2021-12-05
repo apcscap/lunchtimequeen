@@ -47,7 +47,7 @@ export default function Home() {
         <p className={styles.letter2}>Woah! Look at Harry and Ginny fly. They&apos;re really cool and talented. Do you know who else is super talented and cool? Yep, you guessed it, it&apos;s YOU!! I bet you&apos;re doing so many amazing things at berkeley. Either way I and a lot of other people know you&apos;re super dedicated and hardworking. I have faith you!</p>
       </div>
       <div className={styles.note4}>
-        <p className={styles.letter3}>I&apos;ll see you soon Isa during break! Have a excellent burf day! <br/> P.S. You&apos;re hermonine in the meme btw. ;)</p>
+        <p className={styles.letter3}>I&apos;ll see you soon Isa during break! Have a excellent burf day! <br/> P.S. You&apos;re hermonine in the meme btw during finals. ;)</p>
         <img data-aos="fade-up" className={`${styles.potterCards} ${styles.finalMeme}`} src="https://wanna-joke.com/wp-content/uploads/2013/10/funny-picture-there-are-three-types-of-students.jpg"/>
       </div>
 
