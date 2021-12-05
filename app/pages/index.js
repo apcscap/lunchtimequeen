@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Isa's HB Map</title>
+        <title>Isa HB Map</title>
       </Head>
       <div className={styles.coverPage}>
         <Image 
@@ -44,10 +44,10 @@ export default function Home() {
       <div className={styles.note3}>
         <img data-aos="fade-down-left" data-aos-offset="399" className={`${styles.harryBroom}`} src="https://freepngimg.com/thumb/harry_potter/23974-1-harry-potter-broom-transparent.png"/>
         <img data-aos="fade-up-right" data-aos-offset="399" className={`${styles.ginnyBroom}`} src="https://www.nicepng.com/png/full/384-3847312_harry-potter-broom-png-for-kids-ginny-weasley.png"/>
-        <p className={styles.letter2}>Woah! Look at Harry and Ginny fly. They're really cool and talented. Do you know who else is super talented and cool? Yep, you guessed it, it's YOU!! I bet you're doing so many amazing things at berkeley. Either way I and a lot of other people know you're super dedicated and hardworking. I have faith you!</p>
+        <p className={styles.letter2}>Woah! Look at Harry and Ginny fly. They&apos;re really cool and talented. Do you know who else is super talented and cool? Yep, you guessed it, it&apos;s YOU!! I bet you&apos;re doing so many amazing things at berkeley. Either way I and a lot of other people know you&apos;re super dedicated and hardworking. I have faith you!</p>
       </div>
       <div className={styles.note4}>
-        <p className={styles.letter3}>I'll see you soon Isa during break! Have a excellent burf day! <br/> P.S. You're hermonine in the meme btw. ;)</p>
+        <p className={styles.letter3}>I&apos;ll see you soon Isa during break! Have a excellent burf day! <br/> P.S. You&apos;re hermonine in the meme btw. ;)</p>
         <img data-aos="fade-up" className={`${styles.potterCards} ${styles.finalMeme}`} src="https://wanna-joke.com/wp-content/uploads/2013/10/funny-picture-there-are-three-types-of-students.jpg"/>
       </div>
 
