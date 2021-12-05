@@ -58,6 +58,7 @@
 .letter1 {
     font-family: Spectral;
     font-weight: 400;
+    font-style: italic;
     font-size: 20px;
     position: relative;
     top: 0%;
@@ -71,6 +72,7 @@
     font-family: Spectral;
     font-weight: 400;
     font-size: 20px;
+    font-style: italic;
     position: relative;
     top: 0%;
     left: 10%;
@@ -83,6 +85,7 @@
     font-family: Spectral;
     font-weight: 400;
     font-size: 20px;
+    font-style: italic;
     position: relative;
     top: 0%;
     left: 10%;
@@ -256,6 +259,7 @@
         font-family: Spectral;
         font-weight: 400;
         font-size: 20px;
+        font-style: italic;
         position: relative;
         top: auto;
         left: auto;
@@ -268,6 +272,7 @@
         font-family: Spectral;
         font-weight: 400;
         font-size: 20px;
+        font-style: italic;
         position: relative;
         top: auto;
         left: auto;
@@ -280,6 +285,7 @@
         font-family: Spectral;
         font-weight: 400;
         font-size: 20px;
+        font-style: italic;
         position: relative;
         top: auto;
         left: auto;
