@@ -18,18 +18,28 @@
 
 .note2 {
     background-image: linear-gradient(rgba(224,204,167), rgb(212, 193, 156) 15%);
-    width: 105vw;
-    height: 105vh;
-    padding-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
     position: relative;
 }
 .note3 {
     background-image: linear-gradient(rgba(212, 193, 156), rgb(224,204,167) 15%);
-    width: 105vw;
-    height: 105vh;
-    padding-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
+
+.note4 {
+    background-image: linear-gradient(rgba(224,204,167), rgb(212, 193, 156) 15%);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
     position: relative;
@@ -58,6 +68,18 @@
 }
 
 .letter2 {
+    font-family: Spectral;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    top: 0%;
+    left: 10%;
+    right: auto;
+    max-width: 569px;
+    z-index: 10;
+}
+
+.letter3 {
     font-family: Spectral;
     font-weight: 400;
     font-size: 20px;
@@ -186,6 +208,20 @@
     }
 
     .note2 {
+        background-image: linear-gradient(rgba(224,204,167), rgb(212, 193, 156) 15%);
+        width: 105vw;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .note3 {
+        background-image: linear-gradient(rgba(224,204,167), rgb(212, 193, 156) 15%);
+        width: 105vw;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .note4 {
         background-image: linear-gradient(rgba(224,204,167), rgb(212, 193, 156) 15%);
         width: 105vw;
         height: auto;
