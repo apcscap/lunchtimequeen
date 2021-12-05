@@ -48,17 +48,34 @@
     position: absolute;
     top: 10%;
     right: 10%;
-    max-width: 200px;
-    max-height: 300px;
+    max-width: 300px;
+    max-height: 369px;
 }
 
 .cedricPic {
     position: absolute;
     top: 50%;
     right: 20%;
-    max-width: 200px;
-    max-height: 300px;
+    max-width: 300px;
+    max-height: 369px;
 }
+
+.tomPic {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    max-width: 300px;
+    max-height: 369px;
+}
+
+.potterPic {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    max-width: 669px;
+    max-height: 200px;
+}
+
 /* NOTE: to have a div with the width or height of a mobile screen using the
  property vw or vh, one must add 5 units to cover the entire screen. Supposedly
  adding these five units will help match the scale of the div as it is 
@@ -78,8 +95,58 @@
     }
 
     .note1 {
-        background-image: linear-gradient(rgba(224,204,167, 0), rgb(224,204,167, 1) 37%);
+        background-image: linear-gradient(rgba(224,204,167, 0), rgb(224,204,167, 1) 10%);
         width: 105vw;
-        height: 105vh;
+        height: auto;
+        padding-top: 100px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .coverTitle {
+        font-family: Spectral;
+        font-weight: 400;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        max-width: 369px;
+        z-index: 10;
+    }
+
+    .dracoPic {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        max-width: 300px;
+        max-height: 369px;
+    }
+    
+    .cedricPic {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        max-width: 300px;
+        max-height: 369px;
+    }
+    
+    .tomPic {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        max-width: 300px;
+        max-height: 369px;
+    }
+    
+    .potterPic {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        max-width: 669px;
+        max-height: 200px;
     }
 }
