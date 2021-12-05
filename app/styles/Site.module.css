@@ -216,6 +216,11 @@
         z-index: 10;
     }
 
+    .letter2 {
+        top: auto;
+        left: auto;
+    }
+
     /* Classes for the thirsty pics of the wizards in the first page */
     .dracoPic {
         position: relative;
@@ -277,6 +282,22 @@
         top: auto;
         left: auto;
         right: auto;
+        max-width: 90%;
+        max-height: 369px;
+    }
+
+    .harryBroom {
+        position: relative;
+        top: auto;
+        right: auto;
+        max-width: 90%;
+        max-height: 369px;
+    }
+    
+    .ginnyBroom {
+        position: relative;
+        top: auto;
+        left: auto;
         max-width: 90%;
         max-height: 369px;
     }
