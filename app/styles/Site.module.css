@@ -152,7 +152,6 @@
         background-image: linear-gradient(rgba(224,204,167), rgb(212, 193, 156) 15%);
         width: 105vw;
         height: auto;
-        padding-top: 100px;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -160,6 +159,18 @@
     .coverTitle {
         font-family: Spectral;
         font-weight: 400;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        max-width: 369px;
+        z-index: 10;
+    }
+
+    .letter1 {
+        font-family: Spectral;
+        font-weight: 400;
+        font-size: 20px;
         position: relative;
         top: auto;
         left: auto;
@@ -207,26 +218,29 @@
     
     /* Classes for the memes img in the second page */
     .meme1 {
-        position: absolute;
-        top: 49%;
-        left: 30%;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
         max-width: 240px;
         max-height: 569px;
     }
     
     .meme2 {
-        position: absolute;
-        top: 20%;
-        right: 7%;
-        max-width: 390px;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        max-width: 90%;
         max-height: 369px;
     }
     
     .meme3 {
-        position: absolute;
-        top: 50%;
-        right: 7%;
-        max-width: 390px;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        max-width: 90%;
         max-height: 369px;
     }
 }
