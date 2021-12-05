@@ -42,8 +42,8 @@ export default function Home() {
         <img className={`${styles.potterCards} ${styles.meme3}`} src="https://cdn.someecards.com/posts/harry-potter-memes-that-make-me-laugh-every-time-i-see-them-eTK.png"/>
       </div>
       <div className={styles.note3}>
-        <img data-aos="fade-down-left" data-aos-offset="399" className={`${styles.harryBroom}`} src="https://freepngimg.com/thumb/harry_potter/23974-1-harry-potter-broom-transparent.png"/>
-        <img data-aos="fade-up-right" data-aos-offset="399" className={`${styles.ginnyBroom}`} src="https://www.nicepng.com/png/full/384-3847312_harry-potter-broom-png-for-kids-ginny-weasley.png"/>
+        <img data-aos="fade-left" data-aos-offset="399" className={`${styles.harryBroom}`} src="https://freepngimg.com/thumb/harry_potter/23974-1-harry-potter-broom-transparent.png"/>
+        <img data-aos="fade-right" data-aos-offset="399" className={`${styles.ginnyBroom}`} src="https://www.nicepng.com/png/full/384-3847312_harry-potter-broom-png-for-kids-ginny-weasley.png"/>
         <p className={styles.letter2}>Woah! Look at Harry and Ginny fly. They&apos;re really cool and talented. Do you know who else is super talented and cool? Yep, you guessed it, it&apos;s YOU!! I bet you&apos;re doing so many amazing things at berkeley. Either way I and a lot of other people know you&apos;re super dedicated and hardworking. I have faith you!</p>
       </div>
       <div className={styles.note4}>
