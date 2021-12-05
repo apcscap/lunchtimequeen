@@ -46,10 +46,10 @@ export default function Home() {
         <img data-aos="fade-up-right" data-aos-offset="399" className={`${styles.ginnyBroom}`} src="https://www.nicepng.com/png/full/384-3847312_harry-potter-broom-png-for-kids-ginny-weasley.png"/>
         <p className={styles.letter2}>Woah! Look at Harry and Ginny fly. They're really cool and talented. Do you know who else is super talented and cool? Yep, you guessed it, it's YOU!! I bet you're doing so many amazing things at berkeley. Either way I and a lot of other people know you're super dedicated and hardworking. I have faith you!</p>
       </div>
-      {/* <div className={styles.note4}>
-        <p className={styles.letter3}>I'll see you soon Isa during break! Have a excellent burf day!</p>
-        <img src="https://wanna-joke.com/wp-content/uploads/2013/10/funny-picture-there-are-three-types-of-students.jpg"/>
-      </div> */}
+      <div className={styles.note4}>
+        <p className={styles.letter3}>I'll see you soon Isa during break! Have a excellent burf day! <br/> P.S. You're hermonine in the meme btw. ;)</p>
+        <img data-aos="fade-up" className={`${styles.potterCards} ${styles.finalMeme}`} src="https://wanna-joke.com/wp-content/uploads/2013/10/funny-picture-there-are-three-types-of-students.jpg"/>
+      </div>
 
     </div>
   )
