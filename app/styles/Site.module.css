@@ -25,6 +25,15 @@
     padding-right: 5%;
     position: relative;
 }
+.note3 {
+    background-image: linear-gradient(rgba(212, 193, 156), rgb(224,204,167) 15%);
+    width: 105vw;
+    height: 105vh;
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
 
 .coverTitle {
     font-family: Spectral;
@@ -45,6 +54,18 @@
     left: 10%;
     right: auto;
     max-width: 369px;
+    z-index: 10;
+}
+
+.letter2 {
+    font-family: Spectral;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    top: 0%;
+    left: 10%;
+    right: auto;
+    max-width: 569px;
     z-index: 10;
 }
 
@@ -109,7 +130,7 @@
 .meme2 {
     position: absolute;
     top: 20%;
-    right: 7%;
+    right: 20%;
     max-width: 390px;
     max-height: 369px;
 }
@@ -117,8 +138,24 @@
 .meme3 {
     position: absolute;
     top: 50%;
-    right: 7%;
+    right: 20%;
     max-width: 390px;
+    max-height: 369px;
+}
+
+.harryBroom {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    max-width: 500px;
+    max-height: 369px;
+}
+
+.ginnyBroom {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    max-width: 500px;
     max-height: 369px;
 }
 /* NOTE: to have a div with the width or height of a mobile screen using the
